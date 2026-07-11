@@ -15,6 +15,7 @@ description: Use when turning a paper, PDF, abstract, arXiv link, research note,
 - `references/xiaohongshu-layout.md`
 - `references/attribution.md`
 - `references/xiaohongshu-copywriting.md`
+- `references/visual-quality-gates.md`
 
 默认视觉必须保持：3:4 竖版、白底、黑色手绘线稿、少量红蓝橙强调。可以使用读论文的人、工程师、研究员等角色帮助表达“理解、判断、检查、取舍”，但不要让角色抢走论文结构本身。
 
@@ -61,6 +62,7 @@ description: Use when turning a paper, PDF, abstract, arXiv link, research note,
 5. 先生成 Paper Map，再生成单页生图提示词。
 6. 中文标题、关键术语、长句和引用优先后期排版；不要依赖生图模型生成长中文。
 7. 核查论文事实、贡献边界、结果描述和局限，不把作者没有证明的内容说成结论。
+8. 按 `references/visual-quality-gates.md` 检查空框、占位线、文字重叠和 Paper Map 阅读顺序；任一失败都必须重新生成或重新排版。
 
 ## 必须读取的参考
 
