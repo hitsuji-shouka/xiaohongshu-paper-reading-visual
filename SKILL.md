@@ -22,12 +22,22 @@ description: Use when turning a paper, PDF, abstract, arXiv link, research note,
 除非用户只要求某个阶段，输出：
 
 1. 论文 7 步结构化总结
-2. 小红书标题 3-5 个
+2. 1 个最终小红书标题，另附 2 个备选标题
 3. 1-3 页短分享结构，或 6-8 页完整解读结构
-4. 每页 Research Notebook / Excalidraw-style 生图提示词
+4. 每页已生成的 Research Notebook / Excalidraw-style 3:4 配图
 5. 中文 overlay 文案建议
-6. 小红书正文和标签
+6. 简洁正文和标签
 7. 技术准确性与视觉 QA 报告
+
+## 直接成品交付
+
+除非用户明确只要论文总结、脚本、分镜或提示词，否则必须直接完成可发布交付：
+
+1. 必须调用内置 `image_gen`，先生成一张 Paper Map 总览，再生成用户要求的 1-3 张短分享图或 6-8 张完整解读图。
+2. 所有配图必须是独立的 3:4 竖版图；不要只给 Research Notebook / Excalidraw-style 的提示词。
+3. 生成后直接展示配图，再给出标题、简洁正文和 5-10 个精准标签。
+4. 论文题目、中文长句、公式、引用和精确实验数字作为准确 overlay 文案提供，不依赖生图模型生成长文字。
+5. 不得只输出分镜或提示词。只有 `image_gen` 不可用时，才说明原因并把每页完整提示词作为降级交付。
 
 ## 核心流程
 
