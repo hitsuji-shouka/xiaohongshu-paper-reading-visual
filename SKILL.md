@@ -14,6 +14,7 @@ description: Use when turning a paper, PDF, abstract, arXiv link, research note,
 - `references/visual-style.md`
 - `references/xiaohongshu-layout.md`
 - `references/attribution.md`
+- `references/xiaohongshu-copywriting.md`
 
 默认视觉必须保持：3:4 竖版、白底、黑色手绘线稿、少量红蓝橙强调。可以使用读论文的人、工程师、研究员等角色帮助表达“理解、判断、检查、取舍”，但不要让角色抢走论文结构本身。
 
@@ -79,15 +80,17 @@ description: Use when turning a paper, PDF, abstract, arXiv link, research note,
 
 ## 发布文案
 
+先读取 `references/xiaohongshu-copywriting.md`。发布文案必须是可直接粘贴到小红书的格式，不得只给论文摘要式的一段说明。
+
 交付图片后，必须给出与该轮播一一对应、可直接发布的以下内容：
 
 ```text
 标题：1 个最终标题，另附 2 个备选标题
-简介：80-160 字，说明论文问题、关键 insight 和读者值得保存的原因
+正文/简介：4-7 个短段，使用 4-8 个有语义的 emoji，至少 4 个分点；说明论文问题、关键 insight 和读者值得保存的原因
 标签：5-10 个精准标签，覆盖论文主题、领域和阅读场景
 ```
 
-标题优先呈现论文的核心冲突或反直觉结论；简介要严格区分作者证明的结果与解读者的启发；标签不得使用无关热门词。
+标题优先呈现论文的核心冲突或反直觉结论；正文要有 `📌`、`✅`、`📈`、`⚠️`、`💡`、`💾` 等清晰层次，并严格区分作者结果与个人启发；标签不得使用无关热门词。
 
 ## 禁止
 
