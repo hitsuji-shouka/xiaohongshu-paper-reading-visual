@@ -30,6 +30,7 @@ description: Use when turning a paper, PDF, abstract, arXiv link, research note,
 5. 中文 overlay 文案建议
 6. 简洁正文和标签
 7. 技术准确性与视觉 QA 报告
+8. 与配图同目录的 `xiaohongshu-copy.md`
 
 ## 直接成品交付
 
@@ -39,7 +40,22 @@ description: Use when turning a paper, PDF, abstract, arXiv link, research note,
 2. 所有配图必须是独立的 3:4 竖版图；不要只给 Research Notebook / Excalidraw-style 的提示词。
 3. 生成后直接展示配图，再给出标题、简洁正文和 5-10 个精准标签。
 4. 论文题目、中文长句、公式、引用和精确实验数字作为准确 overlay 文案提供，不依赖生图模型生成长文字。
-5. 不得只输出分镜或提示词。只有 `image_gen` 不可用时，才说明原因并把每页完整提示词作为降级交付。
+5. 将最终标题、备选标题、带 emoji 的正文简介、标签和生成信息写入与 PNG 同目录的 `xiaohongshu-copy.md`，不能只显示在聊天中。
+6. 不得只输出分镜或提示词。只有 `image_gen` 不可用时，才说明原因并把每页完整提示词作为降级交付。
+
+## 文件交付
+
+每次生成图片都使用同一个输出目录：
+
+```text
+<output-dir>/
+├── paper-map.png
+├── 01-problem.png
+├── ...
+└── xiaohongshu-copy.md
+```
+
+`xiaohongshu-copy.md` 必须保存本次实际交付的标题、备选标题、完整正文/简介、标签、页数、图片比例和论文事实检查结果。若用户指定了输出目录，严格使用用户目录；未指定时，在当前工作区创建论文主题目录后再保存图片和文案。
 
 ## 严格 3:4 成品检查
 

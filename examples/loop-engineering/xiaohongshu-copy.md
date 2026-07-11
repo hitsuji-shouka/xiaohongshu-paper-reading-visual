@@ -1,23 +1,15 @@
-# Loop Engineering 论文分享案例
+# 小红书发布文案
 
-![Loop Engineering 封面](loop-engineering-cover.png)
+## 标题
 
-![Loop Engineering Paper Map](loop-engineering-paper-map.png)
+Loop Engineering：别再手动 Prompt Agent 了🤖
 
-这组案例展示论文分享 Skill 的两种直接产物：用问题钩子吸引阅读的封面，以及压缩论文主线的 Paper Map。
-
-配套的可直接发布文案保存在 [`xiaohongshu-copy.md`](xiaohongshu-copy.md)，实际生成时也应与 PNG 放在同一目录。
-
-## 发布文案
-
-**标题：**Loop Engineering：别再手动 Prompt Agent 了🤖
-
-备选标题：
+## 备选标题
 
 - 一张 Paper Map 看懂 Loop Engineering🗺️
 - Agent 不是多写 Prompt，而是设计可验证的循环🔁
 
-**简介（可直接发布）：**
+## 正文/简介
 
 读 Agent 论文时，最容易被一堆模块和术语绕晕：它到底是在写 Prompt，还是在设计一套能持续运行的系统？🤔
 
@@ -29,4 +21,13 @@
 💡 我的理解：真正重要的不是让 Agent 无限自我迭代，而是把“执行—反馈—改进”变成可控系统。
 💾 适合收藏，之后复习这篇论文主线时快速回看！
 
-**标签：**#LoopEngineering #AIAgent #智能体 #论文阅读 #软件工程 #AI应用 #开发者工具 #技术分享
+## 标签
+
+#LoopEngineering #AIAgent #智能体 #论文阅读 #软件工程 #AI应用 #开发者工具 #技术分享
+
+## 生成信息
+
+- 案例：Loop Engineering 论文分享
+- 页数：2
+- 图片比例：3:4，1080×1440
+- 图片文件：loop-engineering-cover.png、loop-engineering-paper-map.png
